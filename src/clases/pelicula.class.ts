@@ -29,8 +29,8 @@ export class Pelicula{
 
     convertirFormato():String{
 
-        var hours = Math.floor(this.duracion/ 60);  
-        var minutes = this.duracion % 60;
+        let hours = Math.floor(this.duracion/ 60);  
+        let minutes = this.duracion % 60;
         return hours + ":" + minutes;   
 
     }
